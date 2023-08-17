@@ -83,7 +83,7 @@ class _CurrentLocationState extends State<CurrentLocation> {
       mapType: MapType.terrain,
       markers: {
         Marker(
-            markerId: MarkerId("001"),
+            markerId: MarkerId("00001"),
             position: LatLng(27.6667, 83.4333),
             draggable: true,
             onDragEnd: (latlng) {
